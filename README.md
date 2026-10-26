@@ -97,8 +97,8 @@ La identidad actual usa esta paleta. Para cambiarla, solo dile a Claude los colo
 |---|---|
 | Fondo (alterna entre slides) | Crema `#f7f1e6` o Negro `#111111` |
 | Texto | Negro sobre crema · Crema sobre negro |
-| Palabras clave / resaltador | Amarillo mantequilla `#f6d860` |
-| Cajas, números, botones | Amarillo mantequilla `#f6d860` (texto negro encima) |
+| Palabras clave / resaltador | Amarillo mantequilla `#f3e2a4` |
+| Cajas, números, botones | Amarillo mantequilla `#f3e2a4` (texto negro encima) |
 | Detalles secundarios | Gris cálido `#a89f91` |
 | Logo inferior | `DIANA CATAÑO` |
 
