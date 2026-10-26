@@ -95,11 +95,11 @@ La identidad actual usa esta paleta. Para cambiarla, solo dile a Claude los colo
 
 | Elemento | Color actual |
 |---|---|
-| Fondo (alterna entre slides) | Negro `#0a0a0a` o Carbón `#1a1a1a` |
-| Títulos y texto | Blanco `#ffffff` |
-| Palabras clave / resaltador | Dorado `#e8b04b` |
-| Botones, CTA, números, cajas | Rosa fucsia `#ff3fa4` |
-| Detalles secundarios | Gris suave `#bdbdbd` |
+| Fondo (alterna entre slides) | Crema `#f7f1e6` o Negro `#111111` |
+| Texto | Negro sobre crema · Crema sobre negro |
+| Palabras clave / resaltador | Amarillo mantequilla `#f6d860` |
+| Cajas, números, botones | Amarillo mantequilla `#f6d860` (texto negro encima) |
+| Detalles secundarios | Gris cálido `#a89f91` |
 | Logo inferior | `DIANA CATAÑO` |
 
 ### 4. El formato
