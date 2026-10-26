@@ -1,4 +1,4 @@
-# 🎨 Creador de Carruseles — IA CON DANTE
+# 🎨 Creador de Carruseles — DIANA CATAÑO
 
 Un sistema para crear **carruseles de Instagram, TikTok y Facebook** que siempre se ven
 igual de profesionales, sin tener que diseñar cada slide a mano.
@@ -70,7 +70,7 @@ Dentro de cada carrusel en `output/` encontrarás:
 
 ## 🎨 Cómo personalizarlo para TU marca
 
-Este sistema está armado con la identidad **"IA CON DANTE"**, pero puedes adaptarlo a
+Este sistema está armado con la identidad **"DIANA CATAÑO"**, pero puedes adaptarlo a
 cualquier marca cambiando 4 cosas:
 
 ### 1. Las plantillas de estilo (lo más importante)
@@ -100,7 +100,7 @@ La identidad actual usa esta paleta. Para cambiarla, solo dile a Claude los colo
 | Resaltador / palabras clave | Amarillo `#f8f32b` |
 | Cajas, números, ilustraciones | Indigo `#2b2d42` |
 | Detalles secundarios | Gris `#8d99ae` |
-| Logo inferior | `IA CON DANTE` |
+| Logo inferior | `DIANA CATAÑO` |
 
 ### 4. El formato
 Las imágenes salen en **4:5 vertical** (1080×1424), el formato ideal para carruseles de IG.
