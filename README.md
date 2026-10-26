@@ -101,6 +101,9 @@ La identidad actual usa esta paleta. Para cambiarla, solo dile a Claude los colo
 | Cajas, números, botones | Amarillo mantequilla `#f3e2a4` (texto negro encima) |
 | Detalles secundarios | Gris cálido `#a89f91` |
 | Logo inferior | `DIANA CATAÑO` |
+| Tipografía títulos | Bricolage Grotesque (ExtraBold) |
+| Tipografía textos | Inter |
+| Cierre de cada carrusel | "Te dejo el link en mi bio 💛" (nunca botones tipo "¡Lo quiero!") |
 
 ### 4. El formato
 Las imágenes salen en **4:5 vertical** (1080×1424), el formato ideal para carruseles de IG.

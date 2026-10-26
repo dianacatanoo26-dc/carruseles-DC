@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;700;800&display=swap');
+:root{--crema:#f7f1e6;--negro:#111111;--amarillo:#f3e2a4;--gris:#a89f91}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1424px;overflow:hidden}
+body{font-family:Inter,sans-serif;position:relative;padding:96px 88px}
+.negro{background:var(--negro);color:var(--crema)}
+.crema{background:var(--crema);color:var(--negro)}
+h1,h2{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;letter-spacing:-2.5px;line-height:1.0}
+.mark{background:linear-gradient(transparent 52%,var(--amarillo) 52%,var(--amarillo) 92%,transparent 92%);padding:0 6px;color:inherit}
+.negro .mark{background:none;color:var(--amarillo)}
+.pill{display:inline-block;background:var(--amarillo);color:var(--negro);font-weight:800;font-size:24px;letter-spacing:4px;text-transform:uppercase;padding:12px 26px;border-radius:999px}
+.footer{position:absolute;left:88px;right:88px;bottom:64px;display:flex;justify-content:space-between;align-items:center;font-weight:800;font-size:24px;letter-spacing:6px}
+.negro .footer{color:var(--crema)} .crema .footer{color:var(--negro)}
+.footer .meta{font-weight:500;letter-spacing:2px;color:var(--gris)}
+.rule{position:absolute;left:88px;right:88px;bottom:118px;height:2px;background:var(--gris);opacity:.35}
