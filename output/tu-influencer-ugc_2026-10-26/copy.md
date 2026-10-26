@@ -41,5 +41,5 @@
 
 ## Slide 7 — CTA (fondo negro)
 **Título:** Tu influencer te está esperando. **Empieza hoy.**
-**Cierre:** Si esto es para ti, el link está en mi bio ✦ · Guarda este post · Compártelo con una amiga
+**Cierre:** Te dejo el link en mi bio 💛 · Guarda este post · Compártelo con una amiga
 **Pie:** dianacatano.com

@@ -45,5 +45,5 @@
 ## Slide 7 — CTA (fondo negro)
 **Título:** Tu avatar te está esperando. **Empieza hoy.**
 **Texto:** Crea contenido diferente, profesional y sin miedo a la cámara.
-**Cierre:** Si esto es para ti, el link está en mi bio ✦ · Guarda este post · Compártelo con una amiga
+**Cierre:** Te dejo el link en mi bio 💛 · Guarda este post · Compártelo con una amiga
 **Pie:** Pago seguro con Hotmart · Acceso inmediato
