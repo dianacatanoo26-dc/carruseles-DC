@@ -14,3 +14,6 @@
 # Foto del creador — cada quien sube la suya, NO se versiona
 fotos_creador/*
 !fotos_creador/LEEME.md
+
+# Archivos temporales de generación
+output/*/.build/
