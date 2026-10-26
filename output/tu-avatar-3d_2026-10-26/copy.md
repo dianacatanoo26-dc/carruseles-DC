@@ -1,7 +1,7 @@
-# Carrusel — Tu Avatar 3D (curso)
+# Carrusel — Crea Tu Avatar 3D Estilo Muñeca (curso)
 
 **Formato:** 4:5 vertical (1080×1424) · 7 slides
-**Paleta:** fondos negro `#000000` / blanco `#ffffff` · resaltador, cajas y botones en amarillo pastel `#fdf1a0` (texto negro encima) · sin otros colores
+**Paleta:** PENDIENTE — Diana elige entre opciones A, B, C o D
 **Portada:** avatar 3D de Diana (`fotos_creador/avatar3d_bici.jpeg`)
 **Logo inferior:** DIANA CATAÑO
 **Objetivo:** llevar tráfico a la página de venta del curso (link en bio)
@@ -45,5 +45,5 @@
 ## Slide 7 — CTA (fondo negro)
 **Título:** Tu avatar te está esperando. **Empieza hoy.**
 **Texto:** Crea contenido diferente, profesional y sin miedo a la cámara.
-**Botón:** 👉 Link en mi bio · **Tu Avatar 3D**
+**Botón:** 👉 Link en mi bio · **Crea Tu Avatar 3D Estilo Muñeca**
 **Pie:** Pago seguro con Hotmart · Acceso inmediato
