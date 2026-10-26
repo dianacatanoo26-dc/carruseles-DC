@@ -1,7 +1,7 @@
 # Carrusel — Tu Avatar 3D (curso)
 
 **Formato:** 4:5 vertical (1080×1424) · 7 slides
-**Paleta:** fondos negro `#000000` / blanco `#ffffff` · resaltador amarillo pastel `#fdf1a0` con texto rosa fucsia `#ff3fa4` · dorado `#e8b04b` en títulos
+**Paleta:** fondos negro `#000000` / blanco `#ffffff` · resaltador, cajas y botones en amarillo pastel `#fdf1a0` (texto negro encima) · sin otros colores
 **Portada:** avatar 3D de Diana (`fotos_creador/avatar3d_bici.jpeg`)
 **Logo inferior:** DIANA CATAÑO
 **Objetivo:** llevar tráfico a la página de venta del curso (link en bio)
