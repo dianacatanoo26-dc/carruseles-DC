@@ -1,5 +1,10 @@
 # Carrusel estilo libreta: "Que tu avatar siga siendo tú" (5 slides)
-REAL = img("fotos_creador/diana_real.jpg")
+REAL = img("fotos_creador/diana_podcast.jpg")
+CUERPO = img("fotos_creador/avatar_cuerpo.png")
+
+def parada(derecha=0, alto=880):
+    """Avatar recortado, de pie, saliendo por el borde inferior."""
+    return f'<img src="{CUERPO}" style="position:absolute;right:{derecha}px;bottom:0;height:{alto}px;z-index:3;filter:drop-shadow(0 8px 18px rgba(21,23,53,.18))">'
 BICI = img("fotos_creador/avatar.jpg")
 SENALA = img("fotos_creador/avatar_señala.jpg")
 PLATAF = img("fotos_creador/avatar_plataformas.jpg")
@@ -10,9 +15,10 @@ f'''
 <h1 class="titulo"><span class="linea">Que tu avatar</span><span class="pincel">siga siendo tú</span></h1>
 {rayitas(30,40,70)}{rayitas(960,30,70,giro=100)}
 <p class="mano" style="margin-top:44px;max-width:620px">No se trata de crear a otra persona <span class="subraya">completamente diferente</span>…</p>
-<div class="polaroid" style="left:70px;top:520px;width:300px;height:390px;transform:rotate(-6deg)"><img src="{REAL}"><span class="etiqueta">Yo</span></div>
-{flecha(300,880,230,140,giro=-10)}
-<div class="polaroid" style="left:520px;top:420px;width:470px;height:720px;transform:rotate(3deg)"><img src="{BICI}" style="object-position:center top"><span class="etiqueta">Mi avatar 3D</span></div>
+<div class="polaroid" style="left:70px;top:520px;width:310px;height:420px;transform:rotate(-6deg)"><img src="{REAL}" style="object-position:center 25%"><span class="etiqueta">Yo</span></div>
+{flecha(330,900,220,140,giro=-10)}
+{parada(10,900)}
+<span class="etiqueta" style="left:auto;right:40px;bottom:auto;top:385px;transform:rotate(4deg);z-index:4">Mi avatar 3D</span>
 {chispa(420,440,56)}{chispa(980,330,44,"var(--fucsia)")}{chispa(440,1120,48)}
 <div class="caja" style="position:absolute;left:60px;top:1060px;max-width:470px;font-size:38px">Es convertir <b>tu imagen</b> en un personaje que <b>te represente</b>.</div>
 ''',
@@ -39,10 +45,10 @@ f'''
 <h1 class="titulo" style="font-size:76px"><span class="linea">¿Quieres que se vea</span><span class="pincel">siempre igual?</span></h1>
 {rayitas(20,40,70)}
 <p class="mano" style="margin-top:40px;max-width:900px;font-size:40px">Usa <span class="subraya">siempre la misma imagen</span> de referencia y cuida sus rasgos principales.</p>
-<div class="polaroid" style="left:90px;top:560px;width:340px;height:450px;transform:rotate(-4deg)"><img src="{BICI}" style="object-position:center 10%"><span class="check">✓</span><span class="etiqueta">Gym</span></div>
-<div class="polaroid" style="left:520px;top:540px;width:420px;height:450px;transform:rotate(3deg)"><img src="{SENALA}"><span class="check">✓</span><span class="etiqueta">Contenido</span></div>
-{chispa(470,480,50)}{chispa(960,500,44,"var(--fucsia)")}
-<div class="mano" style="position:absolute;left:90px;top:1090px;font-size:42px;max-width:900px">⚠️ <span style="color:var(--fucsia);font-family:'Permanent Marker'">No cambies</span> tu imagen de referencia a cada rato.</div>
+<div class="polaroid" style="left:80px;top:500px;width:290px;height:380px;transform:rotate(-5deg)"><img src="{BICI}" style="object-position:center 10%"><span class="check">✓</span><span class="etiqueta">Gym</span></div>
+<div class="polaroid" style="left:330px;top:640px;width:290px;height:380px;transform:rotate(4deg)"><img src="{SENALA}"><span class="check">✓</span><span class="etiqueta">Contenido</span></div>
+{parada(-40,800)}{chispa(560,470,50)}{chispa(980,440,44,"var(--fucsia)")}
+<div class="mano" style="position:absolute;left:70px;top:1100px;font-size:38px;max-width:560px">⚠️ <span style="color:var(--fucsia);font-family:'Permanent Marker'">No cambies</span> tu imagen de referencia a cada rato.</div>
 ''',
 
 # 4 — El prompt
@@ -57,7 +63,7 @@ f'''
 <li><span class="ico" style="border-color:var(--fucsia);color:var(--fucsia)">✦</span><span class="txt">Luz y calidad</span></li>
 <li><span class="ico" style="border-color:var(--fucsia);color:var(--fucsia)">✦</span><span class="txt">Lo que NO debe cambiar</span></li>
 </ul>
-<div class="polaroid" style="left:660px;top:640px;width:360px;height:560px;transform:rotate(4deg)"><img src="{BICI}" style="object-position:center 5%"></div>
+{parada(-30,760)}
 {chispa(600,600,50)}{chispa(620,1180,46)}
 ''',
 
