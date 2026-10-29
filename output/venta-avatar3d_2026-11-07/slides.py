@@ -7,6 +7,9 @@ CELULAR = "fotos_creador/avatar_celular.png"
 SLIDES = [
 f'''<div class="fondo-rosa"></div><span class="etq" style="background:var(--cafe);color:var(--lila)">✨ Curso</span>
 <h1 class="grande" style="margin-top:40px;font-size:104px;color:var(--cafe);text-shadow:4px 4px 0 var(--lila)">Crea tu<br><span style="color:var(--fucsia);text-shadow:4px 4px 0 #d0438a">avatar 3D</span><br>estilo<br>muñeca</h1>
+<p class="bio-txt" style="margin-top:40px;max-width:470px;color:var(--cafe);font-size:42px">Y conviértelo en <span style="color:var(--fucsia)">la cara de tu contenido</span> 💛</p>
+<div class="caja" style="position:absolute;left:60px;top:1000px;font-size:38px;color:var(--cafe)">✨ Sin experiencia previa</div>
+<p class="bio-txt" style="position:absolute;left:70px;top:1160px;font-size:34px;color:var(--cafe)">Desliza →</p>
 {recorte(CAMISA, derecha=30, alto=940)}''',
 f'''<div class="fondo-amarillo"></div>
 <h1 class="grande rosa" style="font-size:96px">¿Es para ti?</h1>
