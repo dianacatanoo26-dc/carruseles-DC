@@ -1,0 +1,20 @@
+/* Estilo "vende": tarjeta limpia de color liso, poco texto y tu avatar grande.
+   Se carga encima de libreta.css (mismos colores y letras). */
+body.vende{background:var(--fucsia);background-image:radial-gradient(rgba(255,255,255,.22) 3px,transparent 3px);background-size:44px 44px;color:var(--crema)}
+body.vende.amarillo, .vende .amarillo{background-color:var(--lila)}
+.fondo-amarillo{position:absolute;inset:0;background:var(--lila);background-image:radial-gradient(rgba(248,106,171,.18) 3px,transparent 3px);background-size:44px 44px;z-index:0}
+.grande{font-family:'Permanent Marker';text-transform:uppercase;font-size:118px;line-height:.98;color:var(--crema);position:relative;z-index:2;
+  text-shadow:4px 4px 0 #d0438a}
+.grande.rosa{color:var(--fucsia);text-shadow:4px 4px 0 #d0438a}
+.grande .amar{color:var(--lila)}
+.etq{display:inline-block;font-family:Kalam;font-weight:700;font-size:34px;padding:6px 26px;border-radius:999px;background:var(--crema);color:var(--fucsia);position:relative;z-index:2}
+.limpia{list-style:none;position:relative;z-index:2;margin-top:50px;display:flex;flex-direction:column;gap:22px}
+.limpia li{font-family:Kalam;font-weight:700;font-size:50px;line-height:1.15;display:flex;gap:18px;align-items:center}
+.limpia li::before{content:"✓";flex:none;width:56px;height:56px;border-radius:50%;background:var(--crema);color:var(--fucsia);display:flex;align-items:center;justify-content:center;font-size:32px}
+.fondo-amarillo ~ .limpia li{color:var(--tinta)}
+.fondo-amarillo ~ .limpia li::before{background:var(--fucsia);color:#fff}
+.marco{position:absolute;background:#fff;padding:14px;border-radius:30px;box-shadow:0 18px 40px rgba(0,0,0,.18);z-index:2}
+.marco img{display:block;width:100%;border-radius:20px}
+.bio-txt{position:relative;z-index:2;font-family:Kalam;font-weight:700;font-size:44px;color:var(--crema)}
+body.vende .firma{color:var(--crema)} body.vende .firma .n{color:var(--lila)}
+body.vende .fondo-amarillo ~ .firma{color:var(--tinta)} body.vende .fondo-amarillo ~ .firma .n{color:var(--fucsia)}

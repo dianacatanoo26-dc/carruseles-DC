@@ -1,7 +1,8 @@
 """Genera un carrusel en estilo "libreta" (4:5, 1080×1350).
 
 Uso:  python3 plantillas/libreta/libreta.py output/<carpeta>
-La carpeta debe tener un archivo slides.py con una lista SLIDES de HTML (uno por slide).
+La carpeta debe tener un archivo slides.py con una lista SLIDES de HTML (uno por slide)
+y, opcionalmente, ESTILO = "libreta" | "conecta" | "vende" (por defecto "libreta").
 Las imágenes se escriben con img('fotos_creador/archivo.jpg').
 """
 import json
@@ -66,14 +67,20 @@ def firma(i, total):
 def main(carpeta):
     carpeta = os.path.abspath(carpeta)
     ayudas = dict(img=img, chispa=chispa, rayitas=rayitas, flecha=flecha, recorte=recorte, polaroid=polaroid)
-    slides = runpy.run_path(os.path.join(carpeta, "slides.py"), init_globals=ayudas)["SLIDES"]
+    datos = runpy.run_path(os.path.join(carpeta, "slides.py"), init_globals=ayudas)
+    slides = datos["SLIDES"]
+    estilo = datos.get("ESTILO", "libreta")
+    hojas = f'<link rel="stylesheet" href="file://{AQUI}/libreta.css">'
+    if estilo != "libreta":
+        hojas += f'<link rel="stylesheet" href="file://{RAIZ}/plantillas/{estilo}/{estilo}.css">'
+
     build = os.path.join(carpeta, ".build")
     os.makedirs(build, exist_ok=True)
     trabajos = []
     for i, cuerpo in enumerate(slides, 1):
         doc = (f'<!doctype html><html><head><meta charset="utf-8">'
-               f'<link rel="stylesheet" href="file://{AQUI}/libreta.css"></head>'
-               f'<body>{FILTRO}{cuerpo}{firma(i, len(slides))}</body></html>')
+               f'{hojas}</head>'
+               f'<body class="{estilo}">{FILTRO}{cuerpo}{firma(i, len(slides))}</body></html>')
         ruta = os.path.join(build, f"slide_{i:02d}.html")
         open(ruta, "w", encoding="utf-8").write(doc)
         trabajos.append([ruta, os.path.join(carpeta, f"slide_{i:02d}.png")])
