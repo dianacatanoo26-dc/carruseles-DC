@@ -19,7 +19,7 @@ f'''<div class="fondo-rosa"></div>
 <p class="mano" style="margin-top:50px;max-width:470px">Que te están frenando a <span class="subraya">crear el tuyo</span> 👀</p>
 <div class="mano" style="position:absolute;left:70px;top:1170px;font-size:36px">Desliza →</div>
 {recorte(CAMISA, derecha=-30, alto=930)}''',
-mito("Se ven falsos", "Nadie va a conectar con un muñeco.", "Si se parece a ti, <b>te reconocen</b> y conectan con tu mensaje.", recorte(CAMISA, derecha=-40, alto=800)),
+mito("Se ven falsos", "Nadie va a conectar con un muñeco.", "Si se parece a ti, <b>te reconocen</b> y conectan con tu mensaje.", polaroid("fotos_creador/avatar.jpg", 580, 470, 440, 700, 4, "¿Se ve falso? 😉", enfoque="center 10%")),
 mito("Hay que saber diseñar", "Eso es solo para expertas.", "Se aprende <b>paso a paso</b>, sin experiencia previa.", recorte(TABLET, derecha=-40, alto=800)),
 mito("Solo sirve para fotos", "Es solo una imagen bonita.", "Lo usas en <b>imágenes, videos y carruseles</b>.", polaroid("fotos_creador/avatar_plataformas.jpg", 420, 760, 600, 340, 3)),
 mito("Pierdes tu esencia", "Ya no vas a ser tú.", "Tu avatar <b>lleva tu estilo</b>: tu cabello, tu sonrisa, tu forma de vestir.", recorte(CELULAR, derecha=-20, alto=740)),
