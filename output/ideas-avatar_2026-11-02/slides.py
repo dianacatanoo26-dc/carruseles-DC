@@ -22,7 +22,7 @@ f'''<div class="fondo-crema"></div>
 {recorte(BLAZER, derecha=-30, alto=930)}
 ''',
 idea(1, "Tips de tu nicho", "Tu avatar explica en <b>30 segundos</b> lo que tú sabes hacer.", recorte(BLAZER, derecha=-40, alto=820)),
-idea(2, "Tu día a día", "Muestra tu rutina, tu trabajo o tu café de la mañana <b>sin grabarte</b>.", polaroid("fotos_creador/avatar.jpg", 580, 470, 440, 700, 4, "Mi rutina 💪", enfoque="center 10%")),
+idea(2, "Tu día a día", "Muestra tu rutina, tu trabajo o tu café de la mañana <b>sin grabarte</b>.", polaroid("fotos_creador/avatar_gym_sentadilla.jpg", 580, 470, 440, 700, 4, "Mi rutina 💪", enfoque="center 30%")),
 idea(3, "Tus productos", "Tu avatar <b>presenta y recomienda</b> lo que vendes.", recorte(CAMISA, derecha=-40, alto=820)),
 idea(4, "Preguntas frecuentes", "Responde lo que más te preguntan en DM, <b>una por video</b>.", recorte(CELULAR, derecha=-20, alto=760), 520),
 idea(5, "Tendencias", "Súmate a los audios y retos del momento <b>con tu avatar</b>.", polaroid("fotos_creador/avatar_plataformas.jpg", 380, 780, 640, 360, 3, "Mi avatar en todas las redes")),

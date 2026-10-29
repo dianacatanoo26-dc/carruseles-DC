@@ -20,7 +20,7 @@ f'''<div class="fondo-cafe"></div>
 {flecha(110,1020,220,130,giro=-15,color="var(--lila)")}
 <div class="mano" style="position:absolute;left:70px;top:1170px;font-size:36px">Desliza →</div>
 {recorte(TABLET, derecha=-30, alto=930)}''',
-razon(1, "Sin cámara", "Creas contenido <b>sin grabarte</b> y sin pena. Tu avatar da la cara por ti.", polaroid("fotos_creador/avatar.jpg", 580, 470, 440, 700, 4, "Hoy: gym 💪", enfoque="center 10%")),
+razon(1, "Sin cámara", "Creas contenido <b>sin grabarte</b> y sin pena. Tu avatar da la cara por ti.", polaroid("fotos_creador/avatar_gym_batido.jpg", 580, 470, 440, 700, 4, "Hoy: gym 💪", enfoque="center 20%")),
 razon(2, "Más constancia", "Publicas <b>más rápido</b> y todos los días, sin depender de cómo te ves ese día.", recorte(CELULAR, derecha=-20, alto=760)),
 razon(3, "Te recuerdan", "Tu marca se vuelve <b>única y fácil de reconocer</b> en el feed.", polaroid("fotos_creador/avatar_escritorio.jpg", 600, 520, 420, 600, 4, "Mi avatar ✨", enfoque="center 20%")),
 f'''
