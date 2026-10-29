@@ -17,12 +17,12 @@
 
 | Día | Tipo | Carrusel | Cierre |
 |---|---|---|---|
-| Dom 1 | 💬 | Por qué dejé de tenerle miedo a la cámara | Sígueme |
+| Dom 1 | 📚 | 3 razones para tener tu avatar 3D | Sígueme |
 | Lun 2 | 📚 | 5 ideas de contenido con tu avatar 3D | Guarda este post |
 | Mar 3 | 📚 | ✅ *Que tu avatar siga siendo tú* (ya programado) | Comenta AVATAR |
 | Mié 4 | 📚 | 5 errores al crear tu avatar 3D | Guarda este post |
 | Jue 5 | 💬 | Antes y después: mi foto vs. mi avatar | Compártelo |
-| Vie 6 | 📚 | Cómo hacer que tu avatar hable, paso a paso | Comenta HABLA |
+| Vie 6 | 📚 | 4 mitos sobre los avatares 3D | Activa notificaciones |
 | Sáb 7 | 💰 | Crea Tu Avatar 3D: qué incluye y para quién es | Link en bio |
 
 ## Semana 2 · TU INFLUENCER UGC (8–14 nov) — Tu Influencer UGC
