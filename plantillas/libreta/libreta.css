@@ -50,3 +50,8 @@ body{position:relative;padding:70px 64px;color:var(--tinta);font-family:Kalam,cu
 .fondo-cafe ~ .mano{color:var(--crema)}
 .fondo-cafe ~ .firma{color:var(--crema)} .fondo-cafe ~ .firma .n{color:var(--lila)}
 .fondo-cafe ~ .doodle path{stroke:var(--lila)}
+/* Portada con fondo rosado claro (se alterna con la café): <div class="fondo-rosa"></div> */
+.fondo-rosa{position:absolute;inset:0;background:#fcd3e3;background-image:radial-gradient(rgba(255,255,255,.85) 4px,transparent 4.5px);background-size:46px 46px;z-index:0}
+.fondo-rosa ~ .mano{color:var(--cafe)}
+.fondo-rosa ~ .firma{color:var(--cafe)} .fondo-rosa ~ .firma .n{color:var(--fucsia)}
+.fondo-rosa ~ .doodle path{stroke:var(--cafe)}

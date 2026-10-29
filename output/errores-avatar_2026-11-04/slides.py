@@ -13,7 +13,7 @@ def error(n, titulo, mal, bien, visual):
 '''
 
 SLIDES = [
-f'''<div class="fondo-cafe"></div>
+f'''<div class="fondo-rosa"></div>
 <h1 class="titulo"><span class="linea">5 errores</span><span class="linea">al crear</span><span class="pincel">tu avatar 3D</span></h1>
 {rayitas(30,40,70)}{chispa(980,320,54,"var(--fucsia)")}
 <p class="mano" style="margin-top:50px;max-width:470px">(y cómo evitarlos para que <span class="subraya">se parezca a ti</span>)</p>
