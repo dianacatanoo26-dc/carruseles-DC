@@ -12,7 +12,9 @@ body{position:relative;padding:70px 64px;color:var(--tinta);font-family:Kalam,cu
 
 /* Títulos de marcador */
 .titulo{font-family:'Permanent Marker',cursive;text-transform:uppercase;line-height:1.02;font-size:96px;letter-spacing:1px;position:relative;z-index:2}
-.titulo .linea{display:block}
+.titulo .linea{display:block;width:fit-content;position:relative;color:var(--fucsia);padding:4px 30px 8px;margin:0 0 12px -16px;transform:rotate(-1deg);
+  text-shadow:2px 2px 0 #d4568b}
+.titulo .linea::before{content:"";position:absolute;inset:0;background:var(--lila);filter:url(#pincel);z-index:-1}
 .pincel{display:inline-block;position:relative;color:var(--crema);padding:2px 34px 8px;margin-left:-20px;transform:rotate(-1.5deg);
   text-shadow:3px 3px 0 #d4568b,-1px -1px 0 #d4568b,1px -1px 0 #d4568b,-1px 1px 0 #d4568b}
 .pincel::before{content:"";position:absolute;inset:0;background:var(--fucsia);filter:url(#pincel);z-index:-1;border-radius:6px}

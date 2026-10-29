@@ -72,8 +72,8 @@ f'''
 f'''
 <h1 class="titulo"><span class="linea">🎁 Te regalo mi</span><span class="pincel" style="font-size:170px">prompt</span></h1>
 {rayitas(980,60,70,giro=100)}
-<p class="mano" style="margin-top:36px;max-width:640px">El mismo que usé para <span class="subraya">crear mi avatar 3D</span>.</p>
-<div class="polaroid" style="left:600px;top:430px;width:420px;height:600px;transform:rotate(4deg)"><img src="{SENALA}"></div>
+<p class="mano" style="margin-top:36px;max-width:500px">El mismo que usé para <span class="subraya">crear mi avatar 3D</span>.</p>
+<div class="polaroid" style="left:600px;top:470px;width:420px;height:580px;transform:rotate(4deg)"><img src="{SENALA}"></div>
 {chispa(520,440,56)}{chispa(1000,380,44,"var(--fucsia)")}{rayitas(40,560,60)}
 <div style="position:absolute;left:60px;top:620px;z-index:4">
 <div class="pincel" style="font-family:'Permanent Marker';font-size:52px;margin-left:0">Comenta “AVATAR”</div>
