@@ -13,7 +13,7 @@ def idea(n, titulo, texto, pose, ancho_txt=560):
 '''
 
 SLIDES = [
-f'''
+f'''<div class="fondo-cafe"></div>
 <h1 class="titulo"><span class="linea">5 ideas de</span><span class="linea">contenido con</span><span class="pincel">tu avatar 3D</span></h1>
 {rayitas(30,40,70)}{chispa(980,300,54,"var(--fucsia)")}
 <p class="mano" style="margin-top:50px;max-width:470px">Para que <span class="subraya">nunca más</span> te quedes sin qué publicar ✨</p>

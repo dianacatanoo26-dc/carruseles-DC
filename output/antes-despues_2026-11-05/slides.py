@@ -6,7 +6,7 @@ CAMISA = "fotos_creador/avatar_camisa.png"
 CELULAR = "fotos_creador/avatar_celular.png"
 
 SLIDES = [
-f'''
+f'''<div class="fondo-cafe"></div>
 <h1 class="titulo"><span class="linea">Mi foto</span><span class="pincel">vs. mi avatar 3D</span></h1>
 {rayitas(30,40,70)}{rayitas(980,30,70,giro=100)}
 <p class="mano" style="margin-top:40px;max-width:600px">¿Nos parecemos? 👀</p>

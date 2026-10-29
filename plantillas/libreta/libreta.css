@@ -2,7 +2,7 @@
    Formato 4:5 (1080×1350). */
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Kalam:wght@400;700&display=swap');
 /* Colores del feed de Diana: rosadito, amarillo crema y negro. */
-:root{--papel:#fffaf6;--linea:#f6e4e8;--tinta:#1a1a1a;--fucsia:#f86aab;--morado:#1a1a1a;--lila:#ffec8f;--crema:#fff9e3}
+:root{--papel:#fffaf6;--linea:#f6e4e8;--tinta:#1a1a1a;--fucsia:#f86aab;--morado:#1a1a1a;--lila:#ffec8f;--crema:#fff9e3;--cafe:#8a4232}
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:1080px;height:1350px;overflow:hidden}
 body{position:relative;padding:70px 64px;color:var(--tinta);font-family:Kalam,cursive;
@@ -44,3 +44,9 @@ body{position:relative;padding:70px 64px;color:var(--tinta);font-family:Kalam,cu
 .doodle{position:absolute;z-index:1}
 .firma{position:absolute;left:64px;right:64px;bottom:34px;display:flex;justify-content:space-between;font-family:'Permanent Marker',cursive;font-size:28px;letter-spacing:2px;color:var(--tinta);z-index:4}
 .firma .n{color:var(--fucsia)}
+
+/* Portada con fondo café: poner <div class="fondo-cafe"></div> al inicio del slide */
+.fondo-cafe{position:absolute;inset:0;background:var(--cafe);background-image:radial-gradient(rgba(255,243,184,.5) 4px,transparent 4.5px);background-size:46px 46px;z-index:0}
+.fondo-cafe ~ .mano{color:var(--crema)}
+.fondo-cafe ~ .firma{color:var(--crema)} .fondo-cafe ~ .firma .n{color:var(--lila)}
+.fondo-cafe ~ .doodle path{stroke:var(--lila)}

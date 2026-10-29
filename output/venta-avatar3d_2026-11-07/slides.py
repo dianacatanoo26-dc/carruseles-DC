@@ -5,7 +5,7 @@ CELULAR = "fotos_creador/avatar_celular.png"
 PLATAF = "fotos_creador/avatar_plataformas.jpg"
 
 SLIDES = [
-f'''
+f'''<div class="fondo-cafe"></div>
 <h1 class="titulo"><span class="linea">Crea tu</span><span class="pincel">avatar 3D</span><span class="linea" style="margin-top:12px">estilo muñeca</span></h1>
 {rayitas(30,40,70)}{chispa(980,320,54,"var(--fucsia)")}
 <p class="mano" style="margin-top:40px;max-width:470px">Y conviértelo en <span class="subraya">la cara de tu contenido</span> 💛</p>

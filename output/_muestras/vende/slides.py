@@ -5,8 +5,8 @@ BLAZER = "fotos_creador/avatar_blazer.png"
 CELULAR = "fotos_creador/avatar_celular.png"
 
 SLIDES = [
-f'''<span class="etq">✨ Curso</span>
-<h1 class="grande" style="margin-top:40px;font-size:104px">Crea tu<br><span class="amar">avatar 3D</span><br>estilo<br>muñeca</h1>
+f'''<div class="fondo-cafe"></div><span class="etq" style="background:var(--fucsia);color:#fff">✨ Curso</span>
+<h1 class="grande" style="margin-top:40px;font-size:104px;text-shadow:4px 4px 0 #5a2a20">Crea tu<br><span class="amar">avatar 3D</span><br><span style="color:var(--fucsia)">estilo</span><br>muñeca</h1>
 {recorte(CAMISA, derecha=30, alto=940)}''',
 f'''<div class="fondo-amarillo"></div>
 <h1 class="grande rosa" style="font-size:96px">¿Es para ti?</h1>
