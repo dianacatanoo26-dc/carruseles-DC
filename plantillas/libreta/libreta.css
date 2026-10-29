@@ -1,0 +1,42 @@
+/* Estilo "libreta": hoja cuadriculada, pincelada fucsia, letra de marcador y garabatos.
+   Formato 4:5 (1080×1350). */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Kalam:wght@400;700&display=swap');
+:root{--papel:#fbf8f1;--linea:#dfe7f3;--tinta:#151735;--fucsia:#ff1f9d;--morado:#5b3fe0;--lila:#e7ddff}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{position:relative;padding:70px 64px;color:var(--tinta);font-family:Kalam,cursive;
+  background-color:var(--papel);
+  background-image:linear-gradient(var(--linea) 1.5px,transparent 1.5px),linear-gradient(90deg,var(--linea) 1.5px,transparent 1.5px);
+  background-size:36px 36px}
+
+/* Títulos de marcador */
+.titulo{font-family:'Permanent Marker',cursive;text-transform:uppercase;line-height:1.02;font-size:96px;letter-spacing:1px;position:relative;z-index:2}
+.titulo .linea{display:block}
+.pincel{display:inline-block;position:relative;color:#fff;padding:2px 34px 8px;margin-left:-20px;transform:rotate(-1.5deg)}
+.pincel::before{content:"";position:absolute;inset:0;background:var(--fucsia);filter:url(#pincel);z-index:-1;border-radius:6px}
+.pincel.lila{color:var(--tinta)} .pincel.lila::before{background:var(--lila)}
+
+/* Textos a mano */
+.mano{font-weight:700;font-size:42px;line-height:1.25;transform:rotate(-2deg);position:relative;z-index:2}
+.subraya{background:linear-gradient(transparent 88%,var(--fucsia) 88%);padding-bottom:4px}
+.caja{display:inline-block;position:relative;padding:18px 30px;font-weight:700;font-size:44px;line-height:1.25;transform:rotate(-2deg);z-index:2}
+.caja::before{content:"";position:absolute;inset:0;background:var(--lila);filter:url(#pincel);z-index:-1}
+.caja::after{content:"";position:absolute;left:30px;right:60px;bottom:-14px;height:7px;background:var(--fucsia);border-radius:6px;transform:rotate(-1deg)}
+
+/* Fotos tipo polaroid */
+.polaroid{position:absolute;background:#fff;padding:12px 12px 14px;border-radius:14px;box-shadow:0 10px 26px rgba(21,23,53,.18);border:3px solid #ece6ff;z-index:3}
+.polaroid img{display:block;width:100%;height:100%;object-fit:cover;border-radius:8px}
+.etiqueta{position:absolute;left:50%;bottom:-26px;transform:translateX(-50%) rotate(-3deg);background:var(--morado);color:#fff;font-weight:700;font-size:30px;padding:4px 22px;border-radius:12px;white-space:nowrap}
+.check{position:absolute;top:-18px;left:-18px;width:58px;height:58px;border-radius:50%;background:var(--morado);color:#fff;font-size:34px;font-weight:700;display:flex;align-items:center;justify-content:center;border:4px solid #fff}
+
+/* Lista con íconos */
+.lista{list-style:none;display:flex;flex-direction:column;gap:20px;position:relative;z-index:2}
+.lista li{display:flex;align-items:center;gap:18px;font-weight:700;font-size:40px}
+.lista .ico{flex:none;width:64px;height:64px;border-radius:16px;background:#fff;border:3px solid var(--morado);display:flex;align-items:center;justify-content:center;font-size:34px}
+.lista .txt{position:relative;padding:2px 16px}
+.lista .txt::before{content:"";position:absolute;inset:0;background:var(--lila);filter:url(#pincel);z-index:-1;opacity:.8}
+
+/* Garabatos */
+.doodle{position:absolute;z-index:1}
+.firma{position:absolute;left:64px;right:64px;bottom:34px;display:flex;justify-content:space-between;font-family:'Permanent Marker',cursive;font-size:28px;letter-spacing:2px;color:var(--tinta);z-index:4}
+.firma .n{color:var(--fucsia)}
