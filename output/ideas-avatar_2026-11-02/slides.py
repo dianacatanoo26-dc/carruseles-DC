@@ -7,8 +7,8 @@ def idea(n, titulo, texto, pose, ancho_txt=560):
     return f'''
 <h1 class="titulo" style="font-size:84px"><span class="linea">Idea #{n}</span><span class="pincel">{titulo}</span></h1>
 {rayitas(980,40,70,giro=100)}
-<div class="caja" style="margin-top:70px;max-width:{ancho_txt}px;font-size:42px">{texto}</div>
-<div style="position:absolute;left:70px;bottom:110px;font-family:'Permanent Marker';font-size:340px;line-height:1;color:var(--lila);-webkit-text-stroke:4px var(--fucsia);text-shadow:10px 10px 0 var(--fucsia);transform:rotate(-6deg);z-index:1">{n}</div>{chispa(80,1000,54)}{chispa(560,820,44,"var(--fucsia)")}
+<div class="caja" style="margin-top:80px;max-width:{ancho_txt}px;font-size:48px">{texto}</div>
+{chispa(80,1000,54)}{chispa(560,820,44,"var(--fucsia)")}
 {pose}
 '''
 

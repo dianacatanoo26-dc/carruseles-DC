@@ -7,9 +7,9 @@ def error(n, titulo, mal, bien, visual):
     return f'''
 <h1 class="titulo" style="font-size:80px"><span class="linea">Error #{n}</span><span class="pincel">{titulo}</span></h1>
 {rayitas(980,40,70,giro=100)}
-<div class="mano" style="margin-top:60px;max-width:560px;font-size:38px">❌ {mal}</div>
-<div class="caja" style="margin-top:40px;max-width:560px;font-size:38px">✅ {bien}</div>
-<div style="position:absolute;left:70px;bottom:110px;font-family:'Permanent Marker';font-size:340px;line-height:1;color:var(--lila);-webkit-text-stroke:4px var(--fucsia);text-shadow:10px 10px 0 var(--fucsia);transform:rotate(-6deg);z-index:1">{n}</div>{visual}
+<div class="mano" style="margin-top:70px;max-width:560px;font-size:44px">❌ {mal}</div>
+<div class="caja" style="margin-top:50px;max-width:560px;font-size:44px">✅ {bien}</div>
+{visual}
 '''
 
 SLIDES = [
