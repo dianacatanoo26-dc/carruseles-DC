@@ -8,8 +8,8 @@ En mi curso **Tu Influencer UGC** te enseño paso a paso a crear tu influencer c
 ✅ Sin grabarte tú
 ✅ Con contenido que vende
 
-👉 Escríbeme **UGC** por DM o entra al link de mi bio.
+👉 Te dejo el link en mi bio 💛
 
-💛 Guarda este post y compártelo con esa amiga que tiene tienda online.
+Guarda este post y compártelo con esa amiga que tiene tienda online.
 
 #influencerugc #ugc #contenidougc #inteligenciaartificial #emprendedoras #tiendaonline #marcapersonal #dianacatano
