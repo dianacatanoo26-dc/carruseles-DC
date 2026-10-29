@@ -95,14 +95,14 @@ La identidad actual usa esta paleta. Para cambiarla, solo dile a Claude los colo
 
 | Elemento | Color actual |
 |---|---|
-| Fondo (alterna entre slides) | Crema `#f7f1e6` o Negro `#111111` |
-| Texto | Negro sobre crema · Crema sobre negro |
-| Palabras clave / resaltador | Amarillo mantequilla `#f3e2a4` |
-| Cajas, números, botones | Amarillo mantequilla `#f3e2a4` (texto negro encima) |
-| Detalles secundarios | Gris cálido `#a89f91` |
+| Estilo principal | **Libreta**: hoja cuadriculada, pincelada, letra de marcador y garabatos (`plantillas/libreta/`) |
+| Fondo | Papel cuadriculado `#fffaf6` con líneas rosadas `#f6e4e8` |
+| Rosadito (pinceladas, subrayados, detalles) | `#f985b4` |
+| Amarillo crema (cajas y resaltados) | `#fff3b8` |
+| Negro (títulos y algunas letras) | `#1a1a1a` |
 | Logo inferior | `DIANA CATAÑO` |
-| Tipografía títulos | Bricolage Grotesque (ExtraBold) |
-| Tipografía textos | Inter |
+| Tipografía títulos | Permanent Marker (estilo libreta) |
+| Tipografía textos | Kalam (letra a mano) |
 | Cierre de cada carrusel | "Te dejo el link en mi bio 💛" (nunca botones tipo "¡Lo quiero!") |
 
 ### 4. El formato
