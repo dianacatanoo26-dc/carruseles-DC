@@ -97,8 +97,8 @@ La identidad actual usa esta paleta. Para cambiarla, solo dile a Claude los colo
 |---|---|
 | Estilo principal | **Libreta**: hoja cuadriculada, pincelada, letra de marcador y garabatos (`plantillas/libreta/`) |
 | Fondo | Papel cuadriculado `#fffaf6` con líneas rosadas `#f6e4e8` |
-| Rosadito (pinceladas, subrayados, detalles) | `#f985b4` |
-| Amarillo pastel (cajas, resaltados y fondo de títulos) | `#ffe27a` |
+| Rosado (pinceladas, subrayados, detalles) | `#f86aab` |
+| Amarillo limón pastel (cajas, resaltados y fondo de títulos) | `#ffec8f` |
 | Negro (títulos y algunas letras) | `#1a1a1a` |
 | Logo inferior | `DIANA CATAÑO` |
 | Tipografía títulos | Permanent Marker (estilo libreta) |
