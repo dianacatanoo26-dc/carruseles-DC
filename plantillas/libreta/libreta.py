@@ -45,13 +45,27 @@ def flecha(x, y, ancho=200, alto=120, color="var(--fucsia)", giro=0, voltear=Fal
             f'<path d="M10 10 C 30 90, 110 110, 180 90"/><path d="M150 70 L182 90 L152 112"/></svg>')
 
 
+def recorte(ruta, derecha=None, izquierda=None, alto=900, abajo=0):
+    """Avatar recortado (PNG sin fondo), de pie sobre la hoja y saliendo por el borde inferior."""
+    lado = f"right:{derecha}px" if izquierda is None else f"left:{izquierda}px"
+    return (f'<img src="{img(ruta)}" style="position:absolute;{lado};bottom:{abajo}px;height:{alto}px;z-index:3;'
+            f'filter:drop-shadow(0 8px 18px rgba(21,23,53,.18))">')
+
+
+def polaroid(ruta, x, y, ancho, alto, giro=0, etiqueta="", check=False, enfoque="center"):
+    """Foto con marco blanco, opcionalmente con etiqueta abajo y ✓ arriba."""
+    extra = (f'<span class="etiqueta">{etiqueta}</span>' if etiqueta else "") + ('<span class="check">✓</span>' if check else "")
+    return (f'<div class="polaroid" style="left:{x}px;top:{y}px;width:{ancho}px;height:{alto}px;transform:rotate({giro}deg)">'
+            f'<img src="{img(ruta)}" style="object-position:{enfoque}">{extra}</div>')
+
+
 def firma(i, total):
     return f'<div class="firma"><span>DIANA CATAÑO</span><span class="n">{i}/{total}</span></div>'
 
 
 def main(carpeta):
     carpeta = os.path.abspath(carpeta)
-    ayudas = dict(img=img, chispa=chispa, rayitas=rayitas, flecha=flecha)
+    ayudas = dict(img=img, chispa=chispa, rayitas=rayitas, flecha=flecha, recorte=recorte, polaroid=polaroid)
     slides = runpy.run_path(os.path.join(carpeta, "slides.py"), init_globals=ayudas)["SLIDES"]
     build = os.path.join(carpeta, ".build")
     os.makedirs(build, exist_ok=True)
