@@ -55,3 +55,8 @@ body{position:relative;padding:70px 64px;color:var(--tinta);font-family:Kalam,cu
 .fondo-rosa ~ .mano{color:var(--cafe)}
 .fondo-rosa ~ .firma{color:var(--cafe)} .fondo-rosa ~ .firma .n{color:var(--fucsia)}
 .fondo-rosa ~ .doodle path{stroke:var(--cafe)}
+/* Portada con fondo crema (tercera opción de la rotación): <div class="fondo-crema"></div> */
+.fondo-crema{position:absolute;inset:0;background:#fff4e6;background-image:radial-gradient(rgba(138,66,50,.18) 4px,transparent 4.5px);background-size:46px 46px;z-index:0}
+.fondo-crema ~ .mano{color:var(--cafe)}
+.fondo-crema ~ .firma{color:var(--cafe)} .fondo-crema ~ .firma .n{color:var(--fucsia)}
+.fondo-crema ~ .doodle path{stroke:var(--cafe)}

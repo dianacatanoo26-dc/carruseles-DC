@@ -1,11 +1,11 @@
-# Sáb 7 nov · 💰 Vende — "Crea tu avatar 3D estilo muñeca" (portada rosado claro)
+# Sáb 7 nov · 💰 Vende — "Crea tu avatar 3D estilo muñeca" (portada crema)
 ESTILO = "vende"
 CAMISA = "fotos_creador/avatar_camisa.png"
 BLAZER = "fotos_creador/avatar_blazer.png"
 CELULAR = "fotos_creador/avatar_celular.png"
 
 SLIDES = [
-f'''<div class="fondo-rosa"></div><span class="etq" style="background:var(--cafe);color:var(--lila)">✨ Curso</span>
+f'''<div class="fondo-crema"></div><span class="etq" style="background:var(--cafe);color:var(--lila)">✨ Curso</span>
 <h1 class="grande" style="margin-top:40px;font-size:104px;color:var(--cafe);text-shadow:4px 4px 0 var(--lila)">Crea tu<br><span style="color:var(--fucsia);text-shadow:4px 4px 0 #d0438a">avatar 3D</span><br>estilo<br>muñeca</h1>
 <p class="bio-txt" style="margin-top:40px;max-width:470px;color:var(--cafe);font-size:42px">Y conviértelo en <span style="color:var(--fucsia)">la cara de tu contenido</span> 💛</p>
 <div class="caja" style="position:absolute;left:60px;top:1000px;font-size:38px;color:var(--cafe)">✨ Sin experiencia previa</div>

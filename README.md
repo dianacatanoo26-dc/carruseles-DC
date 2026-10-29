@@ -101,7 +101,9 @@ La identidad actual usa esta paleta. Para cambiarla, solo dile a Claude los colo
 | Amarillo limón pastel (cajas, resaltados y fondo de títulos) | `#ffec8f` |
 | Negro (títulos y algunas letras) | `#1a1a1a` |
 | Café (fondo de portadas, con puntitos amarillo crema) | `#8a4232` |
-| Rosado claro (fondo de portadas, alterna con el café) | `#fcd3e3` |
+| Rosado claro (fondo de portadas) | `#fcd3e3` |
+| Crema (fondo de portadas, con puntitos café) | `#fff4e6` |
+| Rotación de portadas | café → rosado claro → crema (nunca dos iguales seguidas) |
 | Logo inferior | `DIANA CATAÑO` |
 | Tipografía títulos | Permanent Marker (estilo libreta) |
 | Tipografía textos | Kalam (letra a mano) |

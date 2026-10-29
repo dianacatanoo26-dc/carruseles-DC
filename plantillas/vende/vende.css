@@ -19,3 +19,4 @@ body.vende.amarillo, .vende .amarillo{background-color:var(--lila)}
 body.vende .firma{color:var(--crema)} body.vende .firma .n{color:var(--lila)}
 body.vende .fondo-amarillo ~ .firma{color:var(--tinta)} body.vende .fondo-amarillo ~ .firma .n{color:var(--fucsia)}
 body.vende .fondo-rosa ~ .firma{color:var(--cafe)} body.vende .fondo-rosa ~ .firma .n{color:var(--fucsia)}
+body.vende .fondo-crema ~ .firma{color:var(--cafe)} body.vende .fondo-crema ~ .firma .n{color:var(--fucsia)}

@@ -1,6 +1,6 @@
 # Mié 4 nov · 📚 Enseña — "5 errores al crear tu avatar 3D"
 CAMISA = "fotos_creador/avatar_camisa.png"
-BLAZER = "fotos_creador/avatar_blazer.png"
+BLAZER = "fotos_creador/avatar_tablet.png"  # pose con tablet (reemplaza la que señalaba)
 REAL = "fotos_creador/diana_real_cara.jpg"
 
 def error(n, titulo, mal, bien, visual):
@@ -29,7 +29,7 @@ error(3, "Prompt vago", "Escribir solo “hazme un avatar bonito”.", "Describe
 error(4, "Que no te parezca", "Crear un personaje que ya no eres tú.", "Mantén tus <b>rasgos reales</b>: cabello, ojos, piel y tu sonrisa.",
       polaroid("fotos_creador/ref_cara_frente.jpg", 660, 540, 360, 520, 3, "Mi avatar", check=True)),
 error(5, "Usarlo una vez", "Crearlo y dejarlo guardado.", "Úsalo <b>todos los días</b>: imágenes, videos y carruseles.",
-      recorte(CAMISA, derecha=-40, alto=760)),
+      polaroid("fotos_creador/avatar_escritorio.jpg", 600, 520, 420, 600, 4, "Todos los días ✨", enfoque="center 20%")),
 f'''
 <h1 class="titulo"><span class="linea">¿Cuál de estos</span><span class="pincel">cometías tú?</span></h1>
 {rayitas(980,40,70,giro=100)}
