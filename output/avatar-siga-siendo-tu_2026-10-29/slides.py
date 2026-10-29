@@ -3,8 +3,10 @@ REAL = img("fotos_creador/diana_podcast.jpg")
 CUERPO = img("fotos_creador/avatar_cuerpo.png")
 
 def parada(derecha=0, alto=880):
-    """Avatar recortado, de pie, saliendo por el borde inferior."""
-    return f'<img src="{CUERPO}" style="position:absolute;right:{derecha}px;bottom:0;height:{alto}px;z-index:3;filter:drop-shadow(0 8px 18px rgba(21,23,53,.18))">'
+    """Avatar en licra negra, en polaroid grande a la derecha.
+    (Cuando haya una imagen en licra con fondo liso, se cambia por el recorte de cuerpo entero.)"""
+    return (f'<div class="polaroid" style="right:{derecha + 50}px;bottom:120px;width:{int(alto * .52)}px;'
+            f'height:{int(alto * .8)}px;transform:rotate(3deg)"><img src="{BICI}" style="object-position:center 8%"></div>')
 BICI = img("fotos_creador/avatar.jpg")
 SENALA = img("fotos_creador/avatar_señala.jpg")
 PLATAF = img("fotos_creador/avatar_plataformas.jpg")
@@ -18,7 +20,7 @@ f'''
 <div class="polaroid" style="left:70px;top:520px;width:310px;height:420px;transform:rotate(-6deg)"><img src="{REAL}" style="object-position:center 25%"><span class="etiqueta">Yo</span></div>
 {flecha(330,900,220,140,giro=-10)}
 {parada(10,900)}
-<span class="etiqueta" style="left:auto;right:40px;bottom:auto;top:385px;transform:rotate(4deg);z-index:4">Mi avatar 3D</span>
+<span class="etiqueta" style="left:auto;right:40px;bottom:auto;top:470px;transform:rotate(-3deg);z-index:4">Mi avatar 3D</span>
 {chispa(420,440,56)}{chispa(980,330,44,"var(--fucsia)")}{chispa(440,1120,48)}
 <div class="caja" style="position:absolute;left:60px;top:1060px;max-width:470px;font-size:38px">Es convertir <b>tu imagen</b> en un personaje que <b>te represente</b>.</div>
 ''',
@@ -45,9 +47,8 @@ f'''
 <h1 class="titulo" style="font-size:76px"><span class="linea">¿Quieres que se vea</span><span class="pincel">siempre igual?</span></h1>
 {rayitas(20,40,70)}
 <p class="mano" style="margin-top:40px;max-width:900px;font-size:40px">Usa <span class="subraya">siempre la misma imagen</span> de referencia y cuida sus rasgos principales.</p>
-<div class="polaroid" style="left:80px;top:500px;width:290px;height:380px;transform:rotate(-5deg)"><img src="{BICI}" style="object-position:center 10%"><span class="check">✓</span><span class="etiqueta">Gym</span></div>
-<div class="polaroid" style="left:330px;top:640px;width:290px;height:380px;transform:rotate(4deg)"><img src="{SENALA}"><span class="check">✓</span><span class="etiqueta">Contenido</span></div>
-{parada(-40,800)}{chispa(560,470,50)}{chispa(980,440,44,"var(--fucsia)")}
+<div class="polaroid" style="left:90px;top:520px;width:380px;height:480px;transform:rotate(-5deg)"><img src="{SENALA}"><span class="check">✓</span><span class="etiqueta">Contenido</span></div>
+{parada(-40,800)}<span class="check" style="right:420px;top:560px;left:auto;z-index:4">✓</span><span class="etiqueta" style="left:auto;right:150px;bottom:100px;z-index:4">Gym</span>{chispa(560,470,50)}{chispa(980,440,44,"var(--fucsia)")}
 <div class="mano" style="position:absolute;left:70px;top:1100px;font-size:38px;max-width:560px">⚠️ <span style="color:var(--fucsia);font-family:'Permanent Marker'">No cambies</span> tu imagen de referencia a cada rato.</div>
 ''',
 
