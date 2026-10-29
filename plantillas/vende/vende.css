@@ -18,3 +18,4 @@ body.vende.amarillo, .vende .amarillo{background-color:var(--lila)}
 .bio-txt{position:relative;z-index:2;font-family:Kalam;font-weight:700;font-size:44px;color:var(--crema)}
 body.vende .firma{color:var(--crema)} body.vende .firma .n{color:var(--lila)}
 body.vende .fondo-amarillo ~ .firma{color:var(--tinta)} body.vende .fondo-amarillo ~ .firma .n{color:var(--fucsia)}
+body.vende .fondo-rosa ~ .firma{color:var(--cafe)} body.vende .fondo-rosa ~ .firma .n{color:var(--fucsia)}
