@@ -2,7 +2,7 @@
    Formato 4:5 (1080×1350). */
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Kalam:wght@400;700&display=swap');
 /* Colores del feed de Diana: rosadito, amarillo crema y negro. */
-:root{--papel:#fffaf6;--linea:#f6e4e8;--tinta:#1a1a1a;--fucsia:#f985b4;--morado:#1a1a1a;--lila:#fff3b8;--crema:#fff9e3}
+:root{--papel:#fffaf6;--linea:#f6e4e8;--tinta:#1a1a1a;--fucsia:#f985b4;--morado:#1a1a1a;--lila:#ffe27a;--crema:#fff9e3}
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:1080px;height:1350px;overflow:hidden}
 body{position:relative;padding:70px 64px;color:var(--tinta);font-family:Kalam,cursive;
